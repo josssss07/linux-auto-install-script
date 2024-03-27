@@ -22,6 +22,7 @@
 #13- python
 #14- nginx
 #15-R and r-studio 
+#16- docker
 
 #update system
 echo "updating system"
@@ -91,6 +92,9 @@ sudo apt install nginx
 echo "nginx installed, installing r" 
 sudo apt-get install r-base
 echo "r installed"
+echo "installing docker "
+sudo apt install docker -y
+echo "install completed"
 #to instal r studio you need to go to the official r studio website 
 #and install based on ur version 
 
